@@ -30,7 +30,3 @@ jobs:
       - name: Finilly pushing the repo
         run: |
           git push origin ${{ github.ref_name }}
-
-      - name: 文件来自 https://github.com/MayoBlueSky/My-Actions/blob/master/.github/workflows/auto_push.yml 非常感谢
-        run: |
-          echo "文件来自 https://github.com/MayoBlueSky/My-Actions/blob/master/.github/workflows/auto_push.yml 非常感谢"
